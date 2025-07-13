@@ -1,12 +1,79 @@
-# React + Vite
+#  Tic-Tac-Toe Game (React + Tailwind CSS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive Tic-Tac-Toe game built using **React** and styled with **Tailwind CSS**. Features smooth UI, game logic, player turn indicator, and winner detection.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ Fully functional Tic-Tac-Toe game
+- 🎨 Stylish and responsive design (Tailwind CSS)
+- 🧠 Intelligent game logic (winner detection)
+- 🔁 New Game reset functionality
+- 🌈 Dynamic player color indication (X = blue, O = pink)
+- ✅ Winning player is highlighted
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Project Structure
+
+tictactoe/
+├── public/
+│ └── index.html
+├── src/
+│ ├── components/
+│ │ ├── Board.jsx
+│ │ └── Square.jsx
+│ ├── App.jsx
+│ └── main.jsx
+├── tailwind.config.js
+├── index.css
+├── package.json
+└── README.md
+
+---
+
+## 🛠️ Technologies Used
+
+- **React** (with hooks)
+- **Tailwind CSS**
+- **Vite** (for fast development server)
+- **JavaScript (ES6)**
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/tictactoe.git
+cd tictactoe
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+🖼️ Screenshots
+Gameplay	Winner Detection
+
+✍️ Author
+Danish Naseer
+
+📄 License
+This project is licensed under the MIT License.
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+Ask ChatGPT
